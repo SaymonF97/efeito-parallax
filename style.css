@@ -9,13 +9,60 @@
 
 }
 
+
+body {
+
+    background-color: #ff9999;
+
+
+
+}
+
 .img01 {
 
 
         width: 100%;
         height: 800px;
-        background: url(../efeito-parallax/imagens/IMG_2296.JPG);
+        background: url(../efeito-parallax/imagens/IMG_2296.JPG) no-repeat;
 
+        background-size: cover;
+        background-attachment: fixed;
 
 }
 
+.img02 {
+
+
+    width: 100%;
+    height: 800px;
+    background: url(../efeito-parallax/imagens/back-tv.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+
+}
+
+
+
+
+
+.img03 {
+
+
+    width: 100%;
+    height: 800px;
+    background: url(../efeito-parallax/imagens/IMG_2297.JPG) no-repeat;
+
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.cor {
+
+
+    width: 100%;
+    height: 100px;
+    
+}
